@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> 
+        .form{
+            height: 200px; 
+            width: 350px;
+            background-color: rgb(250, 208, 183);
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 100px;
+            box-shadow: 10px 8px 8px rgb(170, 154, 154);
+        }
+        table{
+            margin-left: 20px;
+           padding:20px;
+        }
+    </style>
 </head>
 <body>
     <form action="#"> 
@@ -42,5 +57,60 @@
         <input type="submit" value="submit">
         <input type="reset" value="reset">
     </form>
+    <div class="form">
+        <table> 
+           <form action=""> 
+            <tbody> 
+                <tr> 
+                    <td><label for="">ID</label></td>
+                    <td><input type="text" placeholder="type your id"></td>
+                </tr>
+                <tr> 
+                    <td><label for="">Name</label></td>
+                    <td><textarea rows="1" name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">Round</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="61">61</option>
+                            <option value="61">62</option>
+                            <option value="61">63</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr> 
+                    <td><label for="">Gender</label> </td>
+                    <td>
+                        <input type="radio" name="X" id="">
+                        <label for="">Male</label>
+                        <input type="radio" name="X" id="">
+                        <label for="">Female</label>
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <label for="">Education</label>
+                    </td>
+                    <td> 
+                        <input type="checkbox">
+                        <label for="">HSC</label>
+                        <input type="checkbox">
+                        <label for="">SSC</label>
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td> 
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </tbody>
+           </form> 
+        </table>
+    </div>
 </body>
 </html>
